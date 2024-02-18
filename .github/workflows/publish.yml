@@ -19,7 +19,7 @@ jobs:
         with:
           graph-directory: .
           output-directory: www
-          version: 0.10.3
+          version: nightly
 
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
