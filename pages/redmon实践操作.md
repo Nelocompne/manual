@@ -15,10 +15,11 @@ public:: true
 - ## 虚拟打印机默认设置修改
 	- ![虚拟打印机默认设置修改.mp4](../assets/虚拟打印机默认设置修改_1709215141445_0.mp4)
 	- 虚拟打印机默认设置，开启镜像打印功能。
+	- ![6.PNG](../assets/6_1709822322088_0.PNG)
 - ## 安装环境
 	- ![安装环境.mp4](../assets/安装环境_1709216647014_0.mp4)
 	- 安装==Ghostscript==和==GSview==。
-	- 安装==Ghostscript==后确保“Generate cidfmap for Windws CJK TrueType fonts”开启。
+	- 安装==Ghostscript==后确保 _“Generate cidfmap for Windws CJK TrueType fonts”_ 开启。
 - ## 虚拟打印机配置输出参数1
 	- ![虚拟打印机配置输出参数.mp4](../assets/虚拟打印机配置输出参数_1709216790097_0.mp4)
 	- 虚拟打印机端口配置中，重定向到==GSview==的`gsprint.exe`程序中。
@@ -30,6 +31,7 @@ public:: true
 		- `-ghostscript "name"` 指定==Ghostscript==主程序路径
 		- 在所有参数最后**单独**添加一个`-`参数作为结尾。
 		- （可选）“Run” 运行方式 “Hidden” 隐藏。
+	- ![7.PNG](../assets/7_1709822353747_0.PNG)
 - ## 通过虚拟机打印
 	- ![通过虚拟机打印.mp4](../assets/通过虚拟机打印_1709217192479_0.mp4)
 	- 打印时选择“虚拟打印机”进行打印。
